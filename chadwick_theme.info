@@ -1,0 +1,23 @@
+name = Chadwick_theme
+description = Starter theme designed for giving the developer more flexibility
+version = 1.2.2
+core = 6.x
+engine = phptemplate
+stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/theme.css
+scripts[] = js/bootstrap.min.js
+
+
+regions[banner]    			= banner
+regions[left] 	   			= Left sidebar
+regions[right]    			= Right sidebar
+regions[content]   			= Content
+regions[content_top]   		= content top
+regions[content_bottom]   	= content bottom
+regions[content_bottom_two]   	= content bottom Two
+regions[header]    			= Header
+regions[page_top]    			= Page Top
+regions[front_news]    		= front news
+regions[front_team]    		= front team
+regions[front_affiliates]   = front affiliates
+regions[footer]    			= Footer

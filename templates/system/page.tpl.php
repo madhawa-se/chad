@@ -237,7 +237,17 @@
         </div>
 	<?php endif; ?>
  
-
+  
+  <?php if ($page_top) { ?>
+  <div class="fluid page-top">
+              <div class="container">
+                    <div class="row">
+                      <?php print $page_top; ?>
+                    </div>
+              </div>
+          </div>
+   <?php } ?>
+  
   <div id="page" class="container test">
     <div id="container" class="clear-block">
     	<?php if (!empty($breadcrumb)): ?><div id="breadcrumb"><?php print $breadcrumb; ?></div><?php endif; ?>

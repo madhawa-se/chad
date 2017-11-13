@@ -277,6 +277,16 @@
           </div>
    <?php } ?>
   
+  <?php if ($content_bottom_two) { ?>
+  <div id="content-bottom" class="fluid content-bottom_two">
+              <div class="container">
+                    <div class="row">
+                      <?php print $content_bottom_two; ?>
+                    </div>
+              </div>
+          </div>
+   <?php } ?>
+  
   <div class="front-services clearfix">
 	<div class="services-box core-services col-sm-6">
         <img src="<?php print base_path().path_to_theme();?>/images/core.jpg" alt="">
